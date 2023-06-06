@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GetterSetterTests">
+    <test name="GetterSetterTests">
+        <groups>
+            <run>
+                <include name="getters_setters"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ManTests"/>
+            <class name="WomanTests"/>
+        </classes>
+    </test>
+</suite>
